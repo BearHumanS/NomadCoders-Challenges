@@ -1,4 +1,4 @@
-const img = ["css.png", "2.png", "1.png"];
+const img = ["1.jpg", "2.jpg", "3.jpeg"];
 
 const bgImg = img[Math.floor(Math.random()*img.length)];
 
@@ -6,4 +6,4 @@ const image = document.createElement("img");
 
 image.src = `img/${bgImg}`;
 
-document.body.prepend(image);
+document.body.appendChild(image);
