@@ -69,3 +69,7 @@ li{
     border-bottom: none;
   }
 }
+
+#login-form {
+  text-align: center;
+}
