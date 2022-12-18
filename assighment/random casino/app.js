@@ -1,4 +1,4 @@
-const main = document.querySelector("#main-input");
+const main = document.querySelector("#casino-main input");
 const guess = document.querySelector("#guess");
 const result = document.querySelector("#result");
 
