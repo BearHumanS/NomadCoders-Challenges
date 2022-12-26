@@ -11,5 +11,3 @@ function getClock() {
 getClock();
 setInterval(getClock, 1000);
 
-
-weather.innerText = `${data.weather[0].main} / ${data.main.temp-273.15}`
