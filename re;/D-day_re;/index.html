@@ -4,29 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>디데이 계산기</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="bg">
     <div class="title">디데이 계산기</div>
     <form id="main">
-      <input 
-      id="Xday"
-      type="date" 
-      required
-      placeholder="ex)2023-02-22" />
-      <input id="Enter" type="submit" value="Enter">
+      <input id="day" type="date">
+      <input id="Xday" type="date" required placeholder="ex)2023-02-22" />
+      <input id="Enter" type="submit" value="Enter" />
     </form>
     <div id="clock" class="hidden">
-        <span></span>
+      <span></span>
     </div>
     <div id="weather">
       <span></span>
       <span></span>
     </div>
-    <a id = "naver" href="https://www.naver.com/" target="_blank">네이버</a>
-    <a id = "google" href="https://www.google.co.kr/" target="_blank">구글</a>
-    <a id = "youtube" href="https://www.youtube.com/" target="_blank">유튜브</a>
+    <select class="select">
+      <option id="link" value="http://127.0.0.1:5500/%EB%85%B8%EB%A7%88%EB%93%9C%EC%BD%94%EB%8D%94%20%EB%B0%94%EB%8B%90%EB%9D%BCjs%20%EC%B1%8C%EB%A6%B0%EC%A7%80/re;/D-day_re;/index.html?">=Select Link=</option>
+      <option id="naver" value="https://www.naver.com/" >네이버</option>
+      <option id="google" value="https://www.google.co.kr/" >구글</option>
+      <option id="youtube" value="https://www.youtube.com/" >유튜브</option>
+    </select>
     <script src="app.js"></script>
     <script src="clock .js"></script>
     <script src="weather.js"></script>

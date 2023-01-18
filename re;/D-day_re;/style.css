@@ -13,14 +13,37 @@ input {
     
 }
 
-#main {
-    margin-top: 100px;
-    width: 100%;
+
+
+#day {
+        margin-top: 100px;
+        width: center;
+        margin-left: 827px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+
+#Xday {
+    margin-top: 10px;
+    width: center;
+    margin-left: 827px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
+#Enter {
+    margin-top: 15px;
+    margin-left:904px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 
 #clock {
     margin-top: 20px;
@@ -41,29 +64,7 @@ input {
     border-bottom-right-radius: 1px; 
 }
 
-#naver {
-    position: absolute;
-    left: 1px;
-    top: 2px;
-    color : white;
-    font-weight: bold;
-}
 
-#google {
-    position: absolute;
-    left: 55px;
-    top: 2px;
-    color : white;
-    font-weight: bold;
-}
-
-#youtube {
-    position: absolute;
-    left: 94px;
-    top: 2px;
-    color : white;
-    font-weight: bold;
-}
 
 #weather{
     text-align: right;
@@ -94,3 +95,12 @@ input {
  #Enter {
     background-color: white;
  }
+
+ .select {
+    position: absolute;
+    left: 1px;
+    top: 2px;
+    color : black;
+    font-weight: bold;
+ }
+ 

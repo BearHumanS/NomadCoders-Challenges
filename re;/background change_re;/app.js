@@ -1,4 +1,4 @@
-const 색깔변경 = document.querySelector("#btn");
+const colorChange = document.querySelector("#btn");
 
 function changeHandle() {
     const colors = [
@@ -29,5 +29,5 @@ function changeHandle() {
 };
 
 
-색깔변경.addEventListener("click", changeHandle);
+colorChange.addEventListener("click", changeHandle);
 
